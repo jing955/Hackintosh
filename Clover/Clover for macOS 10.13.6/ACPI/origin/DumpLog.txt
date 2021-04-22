@@ -1,0 +1,132 @@
+4:154  0:147  Found UEFI Acpi 2.0 RSDP at C462C000
+4:154  0:000  Saving ACPI tables from RSDP C462C000 to EFI\CLOVER\ACPI\origin ...
+4:154  0:000   C462C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+4:172  0:018    (Xsdt: C462C0B0, Rsdt: C462C028)
+4:172  0:000    C462C0B0: 'XSDT', 'LH43STAR', Rev: 1, Len: 228 -> XSDT.aml
+4:190  0:018    C462C028: 'RSDT', 'LH43STAR', Rev: 1, Len: 132 -> RSDT.aml
+4:208  0:018    Tables in Xsdt: 24
+4:208  0:000    0. C464B4D0: 'FACP', 'LH43STAR', Rev: 6, Len: 276 -> FACP.aml
+4:226  0:018        (Dsdt: C462C228, Facs: C4A7AE80, XDsdt: C462C228, XFacs: 0)
+4:226  0:000        C462C228: 'DSDT', 'LH43STAR', Rev: 2, Len: 127650 -> DSDT.aml
+4:250  0:023        C4A7AE80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+4:268  0:018    1. C464B5E8: 'APIC', 'LH43STAR', Rev: 3, Len: 188 -> APIC.aml
+4:286  0:018    2. C464B6A8: 'FPDT', 'LH43STAR', Rev: 1, Len: 68 -> FPDT.aml
+4:313  0:027    3. C464B6F0: 'FIDT', 'LH43STAR', Rev: 1, Len: 156 -> FIDT.aml
+4:331  0:018    4. C464B790: 'MCFG', 'LH43STAR', Rev: 1, Len: 60 -> MCFG.aml
+4:349  0:018    5. C464B7D0: 'SSDT', 'SataTabl', Rev: 1, Len: 857 -> SSDT-0-SataTabl.aml
+4:367  0:018    6. C464BB30: 'SSDT', 'DptfTabl', Rev: 2, Len: 43719 -> SSDT-1-DptfTabl.aml
+4:388  0:020    7. C46565F8: 'MSDM', 'LH43STAR', Rev: 3, Len: 85 -> MSDM.aml
+4:406  0:018    8. C4656650: 'SSDT', 'SaSsdt', Rev: 2, Len: 14684 -> SSDT-2-SaSsdt.aml
+4:424  0:018    9. C4659FB0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56 -> HPET.aml
+4:442  0:018    10. C4659FE8: 'UEFI', 'LH43STAR', Rev: 1, Len: 66 -> UEFI.aml
+4:460  0:018    11. C465A030: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6068 -> SSDT-3-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+4:481  0:021        * C45C3318: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1419  53 53 44 54 8B 05 00 00 02 69 50 6D 52 65 66 00 Internal length = 1419 -> SSDT-x3_0-Cpu0Ist.aml
+4:499  0:018        * C3D86018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x3_1-ApIst.aml
+4:517  0:018        * C3D87698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1112  53 53 44 54 58 04 00 00 02 D5 50 6D 52 65 66 00 Internal length = 1112 -> SSDT-x3_2-Cpu0Cst.aml
+4:535  0:018        * C3D85018: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x3_3-ApCst.aml
+4:553  0:018        * C45C3D98: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x3_4-Cpu0Hwp.aml
+4:571  0:018        * C3D85418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x3_5-ApHwp.aml
+4:589  0:018        * C3D87018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x3_6-HwpLvt.aml
+4:610  0:020  
+4:610  0:000    12. C465B7E8: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+4:634  0:024    13. C465B880: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-4-HdaDsp.aml
+4:656  0:022    14. C465B9C8: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-5-sensrhub.aml
+4:675  0:019    15. C465BC68: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+4:675  0:000    16. C465C180: 'DBGP', '', Rev: 1, Len: 52
+4:675  0:000    17. C465C1B8: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+4:694  0:019    18. C465C210: 'SSDT', 'SgPch', Rev: 2, Len: 1903 -> SSDT-6-SgPch.aml
+4:713  0:018    19. C465C980: 'SSDT', 'SgUlx', Rev: 2, Len: 641 -> SSDT-7-SgUlx.aml
+4:729  0:015    20. C465CC08: 'DMAR', 'EDK2', Rev: 1, Len: 204 -> DMAR.aml
+4:748  0:019    21. C465CCD8: 'BGRT', 'LH43STAR', Rev: 1, Len: 56 -> BGRT.aml
+4:767  0:019    22. C465CD10: 'SSDT', 'OptTabl', Rev: 1, Len: 5954 -> SSDT-8-OptTabl.aml
+4:781  0:013    23. C465E458: 'WSMT', 'LH43STAR', Rev: 1, Len: 40 -> WSMT.aml
+4:800  0:019    Tables in Rsdt: 24
+4:800  0:000    0. C462C1A0: 'FACP', 'LH43STAR', Rev: 2, Len: 132 -> RSDT-FACP.aml
+4:819  0:019        (Dsdt: C462C228, Facs: C4A7AE40)
+4:819  0:000        C462C228: 'DSDT', 'LH43STAR', Rev: 2, Len: 127650
+4:822  0:003        C4A7AE40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+4:844  0:022    1. C464B5E8: 'APIC', 'LH43STAR', Rev: 3, Len: 188
+4:844  0:000    2. C464B6A8: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+4:844  0:000    3. C464B6F0: 'FIDT', 'LH43STAR', Rev: 1, Len: 156
+4:844  0:000    4. C464B790: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+4:844  0:000    5. C464B7D0: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+4:844  0:000    6. C464BB30: 'SSDT', 'DptfTabl', Rev: 2, Len: 43719
+4:844  0:000    7. C46565F8: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+4:844  0:000    8. C4656650: 'SSDT', 'SaSsdt', Rev: 2, Len: 14684
+4:844  0:000    9. C4659FB0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+4:844  0:000    10. C4659FE8: 'UEFI', 'LH43STAR', Rev: 1, Len: 66
+4:844  0:000    11. C465A030: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6068
+4:844  0:000    12. C465B7E8: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+4:844  0:000    13. C465B880: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+4:844  0:000    14. C465B9C8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+4:844  0:000    15. C465BC68: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+4:844  0:000    16. C465C180: 'DBGP', '', Rev: 1, Len: 52
+4:844  0:000    17. C465C1B8: 'DBG2', '', Rev: 0, Len: 84
+4:844  0:000    18. C465C210: 'SSDT', 'SgPch', Rev: 2, Len: 1903
+4:844  0:000    19. C465C980: 'SSDT', 'SgUlx', Rev: 2, Len: 641
+4:844  0:000    20. C465CC08: 'DMAR', 'EDK2', Rev: 1, Len: 204
+4:844  0:000    21. C465CCD8: 'BGRT', 'LH43STAR', Rev: 1, Len: 56
+4:844  0:000    22. C465CD10: 'SSDT', 'OptTabl', Rev: 1, Len: 5954
+4:844  0:000    23. C465E458: 'WSMT', 'LH43STAR', Rev: 1, Len: 40
+4:844  0:000  Found UEFI Acpi 1.0 RSDP at C462C000
+4:844  0:000  Printing ACPI tables from RSDP C462C000 ...
+4:844  0:000   C462C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:844  0:000    (Xsdt: C462C0B0, Rsdt: C462C028)
+4:844  0:000    C462C0B0: 'XSDT', 'LH43STAR', Rev: 1, Len: 228
+4:844  0:000    C462C028: 'RSDT', 'LH43STAR', Rev: 1, Len: 132
+4:844  0:000    Tables in Xsdt: 24
+4:844  0:000    0. C464B4D0: 'FACP', 'LH43STAR', Rev: 6, Len: 276
+4:844  0:000        (Dsdt: C462C228, Facs: C4A7AE80, XDsdt: C462C228, XFacs: 0)
+4:844  0:000        C462C228: 'DSDT', 'LH43STAR', Rev: 2, Len: 127650
+4:847  0:003        C4A7AE80: 'FACS', Ver: 2, Len: 64
+4:848  0:000    1. C464B5E8: 'APIC', 'LH43STAR', Rev: 3, Len: 188
+4:848  0:000    2. C464B6A8: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+4:848  0:000    3. C464B6F0: 'FIDT', 'LH43STAR', Rev: 1, Len: 156
+4:848  0:000    4. C464B790: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+4:848  0:000    5. C464B7D0: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+4:848  0:000    6. C464BB30: 'SSDT', 'DptfTabl', Rev: 2, Len: 43719
+4:848  0:000    7. C46565F8: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+4:848  0:000    8. C4656650: 'SSDT', 'SaSsdt', Rev: 2, Len: 14684
+4:848  0:000    9. C4659FB0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+4:848  0:000    10. C4659FE8: 'UEFI', 'LH43STAR', Rev: 1, Len: 66
+4:848  0:000    11. C465A030: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6068
+4:848  0:000    12. C465B7E8: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+4:848  0:000    13. C465B880: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+4:848  0:000    14. C465B9C8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+4:848  0:000    15. C465BC68: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+4:848  0:000    16. C465C180: 'DBGP', '', Rev: 1, Len: 52
+4:848  0:000    17. C465C1B8: 'DBG2', '', Rev: 0, Len: 84
+4:848  0:000    18. C465C210: 'SSDT', 'SgPch', Rev: 2, Len: 1903
+4:848  0:000    19. C465C980: 'SSDT', 'SgUlx', Rev: 2, Len: 641
+4:848  0:000    20. C465CC08: 'DMAR', 'EDK2', Rev: 1, Len: 204
+4:848  0:000    21. C465CCD8: 'BGRT', 'LH43STAR', Rev: 1, Len: 56
+4:848  0:000    22. C465CD10: 'SSDT', 'OptTabl', Rev: 1, Len: 5954
+4:848  0:000    23. C465E458: 'WSMT', 'LH43STAR', Rev: 1, Len: 40
+4:848  0:000    Tables in Rsdt: 24
+4:848  0:000    0. C462C1A0: 'FACP', 'LH43STAR', Rev: 2, Len: 132
+4:848  0:000        (Dsdt: C462C228, Facs: C4A7AE40)
+4:848  0:000        C462C228: 'DSDT', 'LH43STAR', Rev: 2, Len: 127650
+4:851  0:003        C4A7AE40: 'FACS', Ver: 0, Len: 64
+4:851  0:000    1. C464B5E8: 'APIC', 'LH43STAR', Rev: 3, Len: 188
+4:851  0:000    2. C464B6A8: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+4:851  0:000    3. C464B6F0: 'FIDT', 'LH43STAR', Rev: 1, Len: 156
+4:851  0:000    4. C464B790: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+4:851  0:000    5. C464B7D0: 'SSDT', 'SataTabl', Rev: 1, Len: 857
+4:851  0:000    6. C464BB30: 'SSDT', 'DptfTabl', Rev: 2, Len: 43719
+4:851  0:000    7. C46565F8: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+4:851  0:000    8. C4656650: 'SSDT', 'SaSsdt', Rev: 2, Len: 14684
+4:851  0:000    9. C4659FB0: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+4:851  0:000    10. C4659FE8: 'UEFI', 'LH43STAR', Rev: 1, Len: 66
+4:851  0:000    11. C465A030: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6068
+4:851  0:000    12. C465B7E8: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+4:851  0:000    13. C465B880: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+4:851  0:000    14. C465B9C8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+4:851  0:000    15. C465BC68: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+4:851  0:000    16. C465C180: 'DBGP', '', Rev: 1, Len: 52
+4:851  0:000    17. C465C1B8: 'DBG2', '', Rev: 0, Len: 84
+4:851  0:000    18. C465C210: 'SSDT', 'SgPch', Rev: 2, Len: 1903
+4:851  0:000    19. C465C980: 'SSDT', 'SgUlx', Rev: 2, Len: 641
+4:851  0:000    20. C465CC08: 'DMAR', 'EDK2', Rev: 1, Len: 204
+4:851  0:000    21. C465CCD8: 'BGRT', 'LH43STAR', Rev: 1, Len: 56
+4:851  0:000    22. C465CD10: 'SSDT', 'OptTabl', Rev: 1, Len: 5954
+4:851  0:000    23. C465E458: 'WSMT', 'LH43STAR', Rev: 1, Len: 40
